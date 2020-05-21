@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Pathak Coaching Classes</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+
+    <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css">
+   <style>
+       .jumbotron {
+        background-image: url("bg1.jfif");
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            text-align: center;
+            padding-top: 100px;
+            height: 800px;
+          }
+
+          #appSummary {
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+      
+
+        #director {
+            background-image: url("bg1.jfif");
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-top: 100px;
+            padding-top: 70px;
+            padding-bottom: 100px;
+            padding-left: 50px;
+            padding-right: 50px;
+            min-height: 500px;
+            height:auto;
+        }
+
+        #course{
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 120px;
+        }
+
+        #footer {
+            background-image: url("fbg.jfif");
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+           
+          
+            margin-top: 100px;
+            padding-top: 70px;
+            padding-bottom: 100px;
+            padding-left:30px;
+            padding-right:30px;
+        }
+
+
+
+   
+ * {
+  margin: 0;
+  padding: 0; }
+html{
+  overflow-x: hidden;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  background:white;
+  
+ }
+ h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+  color: #262626;
+  line-height: 1.3;
+  font-weight: 700; }
+
+p {
+  font-family: "Raleway", sans-serif;
+  color: #6a6a6a;
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 500; }
+
+a,
+a:hover,
+a:focus {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  text-decoration: none;
+  outline: 0 solid transparent;
+  color: #141414;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif; }
+  img {
+  height: auto;
+  max-width: 100%; }
+  
+  .mb-15 {
+  margin-bottom: 15px !important; }
+
+.mb-30 {
+  margin-bottom: 30px !important; }
+
+.mb-50 {
+  margin-bottom: 50px !important; }
+
+.mb-70 {
+  margin-bottom: 70px !important; }
+
+.mb-100 {
+  margin-bottom: 100px !important; }
+      
+#event {
+   margin-top:40px;
+   padding-top: 50px;
+}
+
+ .numbero {
+  color: #ffcccc;
+
+  font-size: 100px;
+  top:-20px;
+  z-index: -1;
+  padding-left: 200px;
+  font-weight: bold;
+}
+.numbere {
+  color: #ffcccc;
+  
+  font-size: 100px;
+  top:-20px;
+  z-index: -1;
+  padding-right: 200px;
+  font-weight: bold;
+}
+.cou {
+     
+     margin:2%;
+     width:auto;
+     min-height: 250px;
+     height:auto;
+     padding-top:20px;
+     
+}
+@media (max-width: 767.98px) { 
+  .numbero {
+    text-align: center;
+    padding-left: 0;
+  }
+  .numbere {
+    text-align: center;
+    padding-right: 0;
+  }
+  #mynav {
+   background-color: rgba(255,255,255,1);
+  }
+  
+}
+
+
+   </style>
+  </head>
+  <body data-spy="scroll" data-target="#navbar" data-offset="150">
+    
+    <!--NavBar-->
+    <nav id="mynav" class="navbar fixed-top navbar-expand-md navbar-light " style="background-color: rgba(255,255,255,0);">
+      
+        <a class="navbar-brand" href="#">
+          <img src="logo.jpg" width="40" height="40" alt="">
+        </a>
+     
+        <a class="navbar-brand" href="#" style="font-size: 20px;">Pathak Coaching Classes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#event" style="font-size: 18px;">About PCC <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#director" style="font-size: 18px;">Director's Message</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#course" style="font-size: 18px;">Courses</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#footer" style="font-size: 18px;">Contact Us</a>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
+<!--NavBar-->
+ 
+<!--Carousel
+<div style="margin-top: 56px;" id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img src="smiling-students-with-backpacks_1098-1220.jpg"  class="d-block w-100 " style="height: 700px;" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Students-collaborating-on-project-based-learning-project-Feature-Image.jpg"  class="d-block w-100 " style="height: 700px;" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Webp.net-resizeimage.jpg"  class="d-block w-100 " style="height: 700px;" alt="...">
+      </div>
+    </div>
+  </div>
+  background-color: rgb(191,228,255);
+ Carousel-->      
+
+ <div style="background-color:rgb(191,228,255);" class="jumbotron"  data-anijs="if: scroll,on: window, do: fadeIn animated, before: scrollReveal">
+  <h1 class="display-4">PATHAK COACHING CLASSES</h1>
+  <p class="lead">Leader in the preparation for JEE Mains|JEE Advance|BOARDS </p>
+  <hr class="my-4">
+  
+</div>
+
+<div class="container mb-100" id="event" >
+  <h1 style="text-align: center;" >ABOUT PCC</h1>
+  <br>
+  <br>
+  <div class="row" >
+
+      <div class="col-12 mb-30">
+          <div >
+              <div class="row" >
+                  <div class="col-lg-4 col-sm-12" >
+                      <div class="numbero" data-anijs="if: scroll,on: window, do: fadeInLeft animated, before: scrollReveal" style="color: violet;" 
+                        >1</div>
+                  </div>
+                  <div class="col-lg-8 col-sm-12 py-3 px-5">
+                      <h3 data-anijs="if: scroll,on: window, do: fadeInRight animated, before: scrollReveal"   class="text-black">Most Qualified Faculty with Integrated Teaching Approach</h3>                
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-12 mb-30">
+          <div>
+              <div class="row">
+                  <div class="col-lg-8 col-sm-12 py-3 px-5">
+                      <h3 data-anijs="if: scroll,on: window, do: fadeInLeft animated, before: scrollReveal" style="padding-left: 150px;" class="text-black">Comprehensive Study Material</h3>     
+                  </div>
+                  <div class="col-lg-4 col-sm-12">
+                      <div class="numbere" data-anijs="if: scroll,on: window, do: fadeInRight animated, before: scrollReveal"  style="color: indigo;"
+                         >2</div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-12 mb-30">
+        <div >
+            <div class="row" >
+                <div class="col-lg-4 col-sm-12" >
+                    <div class="numbero" data-anijs="if: scroll,on: window, do: fadeInLeft animated, before: scrollReveal"  style="color: blue;"
+                      >3</div>
+                </div>
+                <div class="col-lg-8 col-sm-12 py-3 px-5">
+                    <h3 data-anijs="if: scroll,on: window, do: fadeInRight animated, before: scrollReveal" class="text-black">Individual Institute with a Value System</h3>                
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 mb-30">
+        <div>
+            <div class="row">
+                <div class="col-lg-8 col-sm-12 py-3 px-5">
+                    <h3 data-anijs="if: scroll,on: window, do: fadeInLeft animated, before: scrollReveal"  style="padding-left: 150px;" class="text-black">Timely Syllabus Completion & Chapterwise Revision</h3>     
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="numbere" data-anijs="if: scroll,on: window, do: fadeInRight animated, before: scrollReveal" style="color: green;" 
+                       >4</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 mb-30">
+      <div >
+          <div class="row" >
+              <div class="col-lg-4 col-sm-12" >
+                  <div class="numbero" data-anijs="if: scroll,on: window, do: fadeInLeft animated, before: scrollReveal"  style="color: yellow;"
+                    >5</div>
+              </div>
+              <div class="col-lg-8 col-sm-12 py-3 px-5">
+                  <h3 data-anijs="if: scroll,on: window, do: fadeInRight animated, before: scrollReveal"  class="text-black">Precise Test Schedule</h3>                
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="col-12 mb-30">
+      <div>
+          <div class="row">
+              <div class="col-lg-8 col-sm-12 py-3 px-5">
+                  <h3 data-anijs="if: scroll,on: window, do: fadeInLeft animated, before: scrollReveal"  style="padding-left: 150px;" class="text-black">Daily Attendance & Homework Monitoring</h3>     
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                  <div class="numbere" data-anijs="if: scroll,on: window, do: fadeInRight animated, before: scrollReveal" style="color: orange;" 
+                     >6</div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="col-12 mb-30">
+    <div >
+        <div class="row" >
+            <div class="col-lg-4 col-sm-12" >
+                <div class="numbero" data-anijs="if: scroll,on: window, do: fadeInLeft animated, before: scrollReveal"  style="color: red;"
+                  >7</div>
+            </div>
+            <div class="col-lg-8 col-sm-12 py-3 px-5">
+                <h3 data-anijs="if: scroll,on: window, do: fadeInRight animated, before: scrollReveal"  class="text-black">Doubt Clearance</h3>                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-12 mb-30">
+    <div>
+        <div class="row">
+            <div class="col-lg-8 col-sm-12 py-3 px-5">
+                <h3 data-anijs="if: scroll,on: window, do: fadeInLeft animated, before: scrollReveal"  style="padding-left: 150px;" class="text-black">Counselling & Motivation Session</h3>     
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="numbere" data-anijs="if: scroll,on: window, do: fadeInRight animated, before: scrollReveal"  style="color: seagreen;"
+                   >8</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-12 mb-30">
+  <div >
+      <div class="row" >
+          <div class="col-lg-4 col-sm-12" >
+              <div class="numbero" data-anijs="if: scroll,on: window, do: fadeInLeft animated, before: scrollReveal"  style="color: palevioletred;"
+                >9</div>
+          </div>
+          <div class="col-lg-8 col-sm-12 py-3 px-5">
+              <h3 data-anijs="if: scroll,on: window, do: fadeInRight animated, before: scrollReveal"  class="text-black">Guardianship</h3>                
+          </div>
+      </div>
+  </div>
+</div>
+<div class="col-12 mb-30">
+  <div>
+      <div class="row">
+          <div class="col-lg-8 col-sm-12 py-3 px-5">
+              <h3 data-anijs="if: scroll,on: window, do: fadeInLeft animated, before: scrollReveal"  style="padding-left: 150px;" class="text-black">Limited Batch Size with all facilities</h3>     
+          </div>
+          <div class="col-lg-4 col-sm-12">
+              <div class="numbere" data-anijs="if: scroll,on: window, do: fadeInRight animated, before: scrollReveal"  style="color:lightseagreen;"
+                 >10</div>
+          </div>
+      </div>
+  </div>
+</div>       
+  </div>
+</div>
+
+
+
+
+
+<!--<div class="container">
+  <div  id="appSummary"  data-anijs="if: scroll,on: window, do: fadeIn animated, before: scrollReveal ">
+      <h1 >What we teach here!!</h1>
+      
+      <p class="lead">The study material that we provide is meticulously prepared by our experts to help students prepare subjectively for their exams. It is simplified yet comprehensive; specially tailored to give a leading edge to our students. This serves as a treasuretrove of concepts and questions.</p>
+  </div>
+</div>-->
+
+<div id="director" data-anijs="if: scroll,on: window, do: fadeIn animated, before: scrollReveal">
+  <div  >
+      <h1 style="text-align: center;">Director's Message</h1>
+    
+      
+      <p style="color: black;font-size: 20px;">Dear students</p>
+       <p style="color: black;font-size: 20px;"> As everyone believes that chemistry is the subject in which you have to just cram many things and it is without logics ...many students suffered due to this subject but what i feel if you study the chemistry subject with full attention and you have logics for every concept ...!!! What ??? Logics in chemistry ? ....YES they exists, Even every exception have the logic behind it. Since chemistry is improving day by day so you may not find many answers to many organic reaction in higher level books also but you can reach to that level which is required just for jee ADV / mains or any board examinations. So here at PCC i personally believe in mastering the students with concept only.
+      </p>
+      <p style="color: black;font-size: 20px;">Director & MD of PCC classes</p>
+      <p style="color: black;font-size: 20px;">Thanks</p>
+
+      
+      
+      
+  </div>
+</div>
+
+<div class="container">
+  <div  id="course"  data-anijs="if: scroll,on: window, do: fadeIn animated,before: scrollReveal">
+    <h1>Courses</h1>
+    <br>
+    <div class="row" >
+    <div  class=" col-md-4" data-anijs="if: scroll,on: window, do: fadeIn animated,before: scrollReveal"  >
+      <div class="cou" style="background-color: pink; ">
+      <h1>For 11th Class</h1>
+     <p> The course is designed to develop fundamental concepts of the student from grass root level.</p>
+    </div>
+    </div>
+    <div class=" col-md-4" >
+      <div class="cou" style="background-color: lightblue;">
+      <h1>For 12th Class</h1>
+      <p>The course is designed for steady and result oriented preparation for JEE and Boards</p>
+    </div>
+  </div>
+    <div class=" col-md-4" >
+      <div class="cou" style="background-color: lightgoldenrodyellow;">
+      <h1>For Droppers</h1>
+      <p>he course is designed for steady and result oriented preparation for JEE.</p>
+    </div>
+  </div>
+    
+  </div>
+  
+  </div>
+</div>
+
+<div id="footer" data-anijs="if: scroll,on: window, do: fadeIn animated, before: scrollReveal">
+  
+<div class="row">
+  <div class="col col-md-6">
+    <h2 style="text-align: center;color: black;font-weight:900">TARGET</h2>
+    <br>
+    <p style="color: black;font-size: 20px;font-weight: bolder;"> <b>To teach in such a way that after completing the course of one year at pathakcoachingclasses , one must have full knowledge at every level either it is JEE MAINS / ADVANCED / BOARD / BITS  or any other competitive exams.
+    </b></p>
+
+  </div>
+  <div class="col col-md-6">
+    <h2 style="text-align:center;color:black;font-weight: 900;">Working Hours</h2>
+    <table class="table table-striped table-dark" >
+      <thead>
+        <tr>
+          <th scope="col">Days</th>
+          <th scope="col">Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          
+          <td>Monday</td>
+          <td>10:00 AM to 7:30 PM</td>
+          
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>10:00 AM to 7:30 PM</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>10:00 AM to 7:30 PM</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>10:00 AM to 7:30 PM</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>10:00 AM to 7:30 PM</td>
+        </tr>
+        <tr>
+          <td>Satursday</td>
+          <td>10:00 AM to 7:30 PM</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+  <hr style="color: #000;font-weight: 900;">
+  <h6 style="color: black;font-weight: 900;">Contact us :<u> pathakcoachingclasses@gmail.com</u></h6>
+  <h6 style="text-align: right;color:black;font-weight: 900;">@Copyright</h6>
+
+</div>
+ <!-- AniJS core library -->
+ <script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script> 
+  
+ <!-- Include to use $addClass, $toggleClass or $removeClass -->
+ <script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
+
+ 
+ <script src="https://anijs.github.io/lib/anijs/helpers/scrollreveal/anijs-helper-scrollreveal-min.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
